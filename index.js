@@ -26,7 +26,8 @@ app.use(limiter);
 // Random acceptance reason endpoint
 app.get('/:answer', (req, res) => {
   const answer = req.params.answer.toLowerCase();
-  if (!['yaass', 'yas', 'yes'].includes(answer)) {
+  // Match any variation: y + any combo of a/e + any number of s
+  if (!/^y[ae]*s*$/i.test(answer)) {
     return res.status(404).json({ error: "Not found" });
   }
   const reason = reasons[Math.floor(Math.random() * reasons.length)];
