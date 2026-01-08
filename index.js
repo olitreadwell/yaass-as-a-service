@@ -23,13 +23,17 @@ const limiter = rateLimit({
 
 app.use(limiter);
 
-// Random rejection reason endpoint
-app.get('/no', (req, res) => {
+// Random acceptance reason endpoint
+app.get('/:answer', (req, res) => {
+  const answer = req.params.answer.toLowerCase();
+  if (!['yaass', 'yas', 'yes'].includes(answer)) {
+    return res.status(404).json({ error: "Not found" });
+  }
   const reason = reasons[Math.floor(Math.random() * reasons.length)];
   res.json({ reason });
 });
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`No-as-a-Service is running on port ${PORT}`);
+  console.log(`Yaass-as-a-Service is running on port ${PORT}`);
 });
