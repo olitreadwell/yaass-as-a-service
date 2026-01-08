@@ -126,10 +126,10 @@ Here are some projects and websites that creatively integrate [yaas-as-a-service
 
 ## 👤 Author
 
-Created with creative stubbornness by [hotheadhacker](https://github.com/hotheadhacker)
+Created by [olitreadwell](https://github.com/olitreadwell), inspired by [hotheadhacker](https://github.com/hotheadhacker)
 
 ---
 
 ## 📄 License
 
-MIT — do whatever, just don’t say yes when you should say no.
+MIT — do whatever, just don’t say no when you should say yaass.
