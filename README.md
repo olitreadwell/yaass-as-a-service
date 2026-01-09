@@ -36,8 +36,8 @@ Want to run it yourself? It’s lightweight and simple.
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/hotheadhacker/yaas-as-a-service.git
-cd yaas-as-a-service
+git clone https://github.com/olitreadwell/yaass-as-a-service.git
+cd yaass-as-a-service
 ```
 
 ### 2. Install dependencies
@@ -73,7 +73,7 @@ PORT=5000 npm start
 ## 📁 Project Structure
 
 ```
-yaas-as-a-service/
+yaass-as-a-service/
 ├── index.js            # Express API
 ├── reasons.json        # 500+ universal approval reasons
 ├── package.json
@@ -89,7 +89,7 @@ For reference, here’s the package config:
 
 ```json
 {
-  "name": "yaas-as-a-service",
+  "name": "yaass-as-a-service",
   "version": "1.0.0",
   "description": "A lightweight API that returns random approval or yaass reasons.",
   "main": "index.js",
@@ -112,16 +112,16 @@ For reference, here’s the package config:
 If you open this repo in Github Codespaces, it will automatically use `.devcontainer.json` to set up your environment.  If you open it in VSCode, it will ask you if you want to reopen it in a container.
 
 ---
-## Projects Using yaas-as-a-Service
+## Projects Using Yaass-as-a-Service
 
-Here are some projects and websites that creatively integrate [yaas-as-a-service](https://naas.isalman.dev/no) to deliver humorous or programmatic "no" responses:
+Here are some projects and websites that creatively integrate [yaass-as-a-service]([https://naas.isalman.dev/no](https://github.com/olitreadwell/yaass-as-a-service/) to deliver humorous or programmatic "yaass" responses:
 
 1. **[Your Project Here?](https://github.com/YOUR_REPO)**  
-   If you're using yaas-as-a-service in your project, open a pull request to be featured here!
+   If you're using yaass-as-a-service in your project, open a pull request to be featured here!
 
 ---
 
-> Want to use yaas-as-a-service in your own project? Check out the usage section in this README and start returning **"no"** like a pro.
+> Want to use yaass-as-a-service in your own project? Check out the usage section in this README and start returning **"no"** like a pro.
 ---
 
 ## 👤 Author
