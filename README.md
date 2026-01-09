@@ -1,4 +1,4 @@
-# ✅ yaas-as-a-Service
+# ✅ Yaas-as-a-Service
 
 Ever needed a graceful way to say “yaass”?  
 This tiny API returns random, generic, creative, and sometimes hilarious approval reasons — perfectly suited for any scenario: personal, professional, student life, dev life, or just because.
